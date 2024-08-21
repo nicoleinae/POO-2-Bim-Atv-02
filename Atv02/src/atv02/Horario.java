@@ -33,7 +33,7 @@ public class Horario extends Tempo{
 	public void setSegundo(Integer segundo) {
 		this.segundo = segundo;
 	}
-	
+	@Override
 	public long quantidade () {
 		return (hora * 3600 + minuto * 60 + segundo);
 	}
